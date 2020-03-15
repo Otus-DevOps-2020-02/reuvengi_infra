@@ -22,3 +22,10 @@
       ProxyJump appuser@bastion
       User appuser
     ```
+
+3. Был поднят vpn сервер на bastion, адрес панели управления https://146.148.23.110.getmoss.site/ - с сретификатом letsencrypt
+
+```
+bastion_IP = 146.148.23.110
+someinternalhost_IP = 10.132.0.3
+```
