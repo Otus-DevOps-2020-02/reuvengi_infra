@@ -1,0 +1,10 @@
+ "variables": {
+    "project_id": null,
+    "source_image_family": null,
+    "machine_type":"f1-micro",
+    "disk_type":"pd-standard",
+    "disk_size":10,
+    "image_description":"reddit image descr",
+    "tags": {"HW": "6"},
+    "network":"default"
+  }
