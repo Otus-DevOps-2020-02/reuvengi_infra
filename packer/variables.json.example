@@ -1,10 +1,10 @@
- "variables": {
-    "project_id": null,
-    "source_image_family": null,
+{
+    "project_id": "werwer",
+    "source_image_family": "werwer",
     "machine_type":"f1-micro",
     "disk_type":"pd-standard",
-    "disk_size":10,
+    "disk_size": "5000M",
     "image_description":"reddit image descr",
-    "tags": {"HW": "6"},
+    "tags": "TEST",
     "network":"default"
   }
