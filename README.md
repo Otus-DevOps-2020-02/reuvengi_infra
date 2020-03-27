@@ -58,3 +58,16 @@ gcloud compute --project=inbound-summit-260319 firewall-rules create default-pum
 
 testapp_IP = 35.241.173.135
 testapp_port = 9292
+
+
+## ДЗ 6
+
+1. Был создан шаблон образа ubuntu16.json и проверен делой образа
+
+2. Шаблон был параметрезирован, создан файл variables.json и занесен в .gitignore
+
+3. Был создан файл variables.json.example с расширенными переменными
+
+4. Создан шаблон immutable.json, который деплоит приложение в виде сервиса
+
+5. Создан скрипт запуска виртуальной машины с образом reddit-full
