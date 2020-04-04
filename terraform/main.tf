@@ -25,10 +25,7 @@ provider "google" {
 
 }
 
-resource "google_compute_project_metadata_item" "ssh-keys" {
-  key   = "ssh-keys"
-  value = "${file("~/.ssh/appuser_web.pub")}"
-}
+
 
 resource "google_compute_instance" "app" {
   name         = "reddit-app"
