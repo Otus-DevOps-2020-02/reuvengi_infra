@@ -1,0 +1,11 @@
+[Unit]
+Description=PUMA demo service
+After=network.target
+[Service]
+Type=simple
+Restart=always
+User=appuser
+ExecStart=/usr/local/bin/puma --dir /home/appuser/reddit
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,10 @@
+{
+    "project_id": "werwer",
+    "source_image_family": "werwer",
+    "machine_type":"f1-micro",
+    "disk_type":"pd-standard",
+    "disk_size": "5000M",
+    "image_description":"reddit image descr",
+    "tags": "TEST",
+    "network":"default"
+  }
